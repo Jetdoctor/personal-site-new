@@ -30,12 +30,6 @@ Edit the top of `main.js`:
 - `BIRTH_DATE`: set your real birth date (current value is an estimate!)
 - `GAMES_FINISHED`, `COUNTRIES_VISITED`, `CURRENT_CITY`
 
-## Downloadable CV
-
-A phone-free PDF (phone replaced with erselerbay.com) is included at
-`files/Ersel-Erbay-CV.pdf` and linked from the Resume page.
-When your CV changes, export a new phone-free PDF and overwrite that file.
-
 ## Fonts
 
 Self-hosted in `fonts/` (no Google Fonts request = GDPR-friendly + faster).
@@ -46,20 +40,5 @@ Automatic, follows the visitor's system preference. Dark palette lives at
 the bottom of `styles.css`.
 
 ## Deploying (first time replacing the old site)
-
-```bash
-git clone https://github.com/jetdoctor/Personal-Site-Final.git
-cd Personal-Site-Final
-# Check which branch GitHub Pages deploys from:
-# GitHub → repo → Settings → Pages → "Branch". Switch to it if needed.
-
-# Keep the images folder, delete everything else:
-find . -mindepth 1 -maxdepth 1 ! -name images ! -name .git -exec rm -rf {} +
-
-# Copy the new site files in (from the unzipped folder), then:
-git add -A
-git commit -m "New site: hand-written HTML/CSS, updated CV content"
-git push
-```
 
 Wait a minute, hard-refresh erselerbay.com (Ctrl+Shift+R), done.
