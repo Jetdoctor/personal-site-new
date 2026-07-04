@@ -321,7 +321,7 @@ h3 {
 /* ---------- Player card (signature element) ---------- */
 
 .player-card {
-  background: var(--ink);
+  background: #161b1a;
   color: #e8ebe9;
   border-radius: var(--radius);
   padding: 28px 30px;
