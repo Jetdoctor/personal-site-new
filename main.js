@@ -6,9 +6,9 @@
    - Update GAMES_FINISHED / COUNTRIES_VISITED whenever they grow.
    ------------------------------------------------------------ */
 
-var BIRTH_DATE = "1992-02-01"; // TODO: replace with your real birth date
-var GAMES_FINISHED = 550;
-var COUNTRIES_VISITED = 26;
+var BIRTH_DATE = "1993-09-20"; // TODO: replace with your real birth date
+var GAMES_FINISHED = 600+;
+var COUNTRIES_VISITED = 34;
 var CURRENT_CITY = "Hamburg, DE";
 
 // Live age counter (updates ~20x per second, like the old site)
