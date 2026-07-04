@@ -7,7 +7,7 @@
    ------------------------------------------------------------ */
 
 var BIRTH_DATE = "1993-09-20"; // TODO: replace with your real birth date
-var GAMES_FINISHED = 600+;
+var GAMES_FINISHED = 630;
 var COUNTRIES_VISITED = 34;
 var CURRENT_CITY = "Hamburg, DE";
 
