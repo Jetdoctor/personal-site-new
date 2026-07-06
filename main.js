@@ -7,11 +7,11 @@
    ------------------------------------------------------------ */
 
 var BIRTH_DATE = "1993-09-20"; // TODO: replace with your real birth date
-var GAMES_FINISHED = 530;
+var GAMES_FINISHED = 630;
 var COUNTRIES_VISITED = 34;
 var CURRENT_CITY = "Hamburg, DE";
-var ANIME_COMPLETED = 275;      // from myanimelist.net/animelist/Jetdoctor
-var MOVIES_SHOWS_RATED = "1024";   // TODO: your IMDb ratings page shows "X titles" at the top - put that number here
+var ANIME_COMPLETED = 303;      // from myanimelist.net/animelist/Jetdoctor
+var MOVIES_SHOWS_RATED = "1025";
 
 // Live age counter (updates ~20x per second, like the old site)
 function startAgeCounter() {
